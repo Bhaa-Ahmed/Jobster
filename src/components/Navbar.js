@@ -30,7 +30,12 @@ const Navbar = () => {
 					<button
 						type="button"
 						className="btn"
-						onClick={() => setShowLogout(!showLogout)}
+						onClick={() => {
+							setShowLogout(!showLogout);
+							setTimeout(() => {
+								setShowLogout(false);
+							}, 3000);
+						}}
 					>
 						<FaUserCircle />
 						{user?.name}
