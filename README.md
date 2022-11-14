@@ -2,6 +2,10 @@
 
 Responsive React CRUD project that allows users to create, read, update and delete jobs.
 
+# Site
+
+- https://jobster-react-redux-toolkit.netlify.app
+
 # Features
 
 - All jobs tab show all jobs the user added and he can search through them.
@@ -35,7 +39,3 @@ Main project contains pages, components, features and utils.
   - User slice : handle register, login, and logout of the user.
   - Job slice : handle create a new job, delete, and edit the current jobs.
   - All jobs slice : handle fetch the current jobs from the data base and pagination functionalities.
-
-# Site
-
-- https://jobster-react-redux-toolkit.netlify.app
