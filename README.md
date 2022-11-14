@@ -32,11 +32,10 @@ Main project contains pages, components, features and utils.
 
 - We use reduxjs/toolkit to handle Data&State Management.
 - There is 3 main slices
-
   - User slice : handle register, login, and logout of the user.
   - Job slice : handle create a new job, delete, and edit the current jobs.
   - All jobs slice : handle fetch the current jobs from the data base and pagination functionalities.
 
-  # Site
+# Site
 
-  - https://jobster-react-redux-toolkit.netlify.app
+- https://jobster-react-redux-toolkit.netlify.app
